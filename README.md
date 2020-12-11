@@ -31,7 +31,7 @@ pip install pandas
 2. Create a new project: ```gcloud projects create [YOUR_PROJECT_ID] --set-as-default```
 3. Initialize GAE app and specify the project: ```gcloud app create --project=[YOUR_PROJECT_ID]```
 4. Choose a [region](https://cloud.google.com/compute/docs/regions-zones)
-5. Install the [gcloud component](https://cloud.google.com/sdk/docs/components) that includes extension for Pytohn 3: ```gcloud components install app-engine-python``` 
+5. Install the [gcloud component](https://cloud.google.com/sdk/docs/components) that includes extension for Python 3: ```gcloud components install app-engine-python``` 
 6. Deploy the application: ```gcloud app deploy```
 7. Launch your browser to view the app: ```gcloud app browse```
 
